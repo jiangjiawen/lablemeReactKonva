@@ -1,0 +1,28 @@
+.border-block {
+    width: 700px;
+    height: 700px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to top, #F80, #2ED);
+    border-image-slice: 10;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    width: 60px;
+    background-color: white;
+    box-shadow: 0 0 5px grey;
+    border-radius: 3px;
+}
+
+.menu button {
+    width: 100%;
+    background-color: white;
+    border: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.menu button:hover {
+    background-color: lightgray;
+}
